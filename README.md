@@ -35,11 +35,11 @@ Cointegration research on pairs and baskets and statistical arbitrage backtestin
 ### Sample Output: XLK/XLE Pair (Tech vs Energy)
 ```
 COINTEGRATION ANALYSIS
-✓ Method: Johansen
-✓ Hedge Ratio: 0.1566
-✓ Half-Life: 56.2 days
-✓ ADF p-value: 0.0001 (Stationary ✓)
-✓ Hurst Exponent: 0.45 (Mean-reverting ✓)
+ Method: Johansen
+ Hedge Ratio: 0.1566
+ Half-Life: 56.2 days
+ ADF p-value: 0.0001 (Stationary ✓)
+ Hurst Exponent: 0.45 (Mean-reverting ✓)
 
 BACKTEST RESULTS (Out-of-Sample)
 Total Return:        -8.96%
@@ -59,9 +59,6 @@ Win Rate:            48.2%
 # Clone the repository
 git clone https://github.com/yourusername/stat-arb.git
 cd stat-arb
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Set up environment variables (for Alpaca)
 cp .env.example .env
