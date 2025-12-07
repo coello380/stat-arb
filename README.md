@@ -1,8 +1,7 @@
 # stat-arb
 Statistical-arbitrage startegy on cointegrating spreads, a simple implementation
-# Statistical Arbitrage Trading System
 
-A production-ready pairs trading and statistical arbitrage backtesting framework built in Python. This system identifies cointegrated asset pairs, constructs mean-reverting spreads, and implements Bollinger Band-based trading strategies with comprehensive risk management.
+Cointegration research on pairs and baskets and statistical arbitrage backtesting framework built in Python. This system identifies cointegrated asset pairs or baskets, constructs mean-reverting spreads, and implements Bollinger Band-based trading strategies.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
