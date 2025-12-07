@@ -7,15 +7,14 @@ A production-ready pairs trading and statistical arbitrage backtesting framework
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🎯 Features
+## Features
 
 ### Core Capabilities
 - **Robust Cointegration Testing**: Johansen and VAR-based methods with automatic selection
 - **Multi-Method Stationarity Tests**: ADF, KPSS, Variance Ratio, and Hurst Exponent
 - **Dynamic Hedge Ratio Calibration**: Automatically determines optimal spread construction
-- **Walk-Forward Backtesting**: Eliminates look-ahead bias with rolling estimation windows
-- **Professional Visualization Suite**: Publication-quality charts and analytics
-- **Multi-Data Source Support**: Works with both yfinance (free) and Alpaca (paid)
+- **Graphs**: Publication-quality charts and analytics
+- **Multi-Data Source Support**: Works with both yfinance (free) and Alpaca
 
 ### Statistical Tests Implemented
 - **Augmented Dickey-Fuller (ADF)**: Tests for unit root (non-stationarity)
