@@ -102,7 +102,6 @@ stat-arb/
 │   ├── data.py                # Data fetching (yfinance, Alpaca)
 │   ├── strategy.py            # Pairs trading strategy (Bollinger Bands)
 │   ├── visualization.py       # Plotting and analytics
-│   └── rolling_backtest.py    # Walk-forward backtesting engine
 ├── main.py                    # Command-line entry point
 ├── requirements.txt           # Python dependencies
 ├── .env.example               # Environment variable template
